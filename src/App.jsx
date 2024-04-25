@@ -1,0 +1,28 @@
+import React from 'react'
+import Navbar from './components/Navbar'
+import Landing from './components/Landing'
+import Marquee from './components/Marquee'
+import About from './components/About'
+import Eyes from './components/Eyes'
+import Features from './components/Features'
+import Cards from './components/Cards'
+import LocomotiveScroll from 'locomotive-scroll';
+
+function App() {
+
+  const locomotiveScroll = new LocomotiveScroll();
+  
+  return (
+    <div className=' min-h-screen w-full bg-zinc-800 '>
+      <Navbar></Navbar>
+      <Landing></Landing>
+      <Marquee></Marquee>
+      <About></About>
+      <Eyes></Eyes>
+      <Features></Features>
+      <Cards></Cards>
+    </div>
+  )
+}
+
+export default App
