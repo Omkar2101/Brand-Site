@@ -8,8 +8,12 @@ function Features() {
         </div>
         <div className='mt-10 px-20 '>
             <div className='flex gap-10 '>
-                <div className='bg-red-500 w-full h-[75vh] rounded-lg'></div>
-                <div className='bg-red-500 w-full h-[75vh] rounded-lg'></div>
+                <div className='bg-red-500 w-full h-[75vh] rounded-lg'>
+                  <img src="https://ochi.design/wp-content/uploads/2022/12/PB-Front-4-1326x1101.png" alt="" srcset="" />
+                </div>
+                <div className='bg-red-500 w-full h-[75vh] rounded-lg'>
+                  <img src="https://ochi.design/wp-content/uploads/2023/08/Frame-3875-1326x1101.jpg" alt="" />
+                </div>
             </div>
         </div>
     </div>

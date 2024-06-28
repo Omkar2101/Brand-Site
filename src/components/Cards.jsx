@@ -2,11 +2,11 @@ import React from 'react'
 
 function Cards() {
   return (
-    <div>
-        <div className='write text-white  text-6xl p-8 border-b-[1px] border-zinc-600 tracking-tighter leading-3 m-14'>
+    <div className='max-h-[100vw]'>
+        <div className='write text-white max-h-[50vw] text-6xl p-8 border-b-[1px] border-zinc-600 tracking-tighter leading-3 m-14'>
             New Addons
         </div>
-        <div className='h-[100vw] w-full  flex gap-10 p-20 mt-30'>
+        <div className='h-[40vw] w-full  flex gap-10 p-20 mt-30'>
             <div className='  container w-[40vw] h-[40vh] '>
                 <div className=' relative flex justify-center items-center rounded-lg w-full h-[38vh] bg-black'>
                     <img className='absolute hover:scale-75 transition-ease ' src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg" alt="" />
