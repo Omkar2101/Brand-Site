@@ -8,6 +8,8 @@ import Features from './components/Features'
 import Cards from './components/Cards'
 import LocomotiveScroll from 'locomotive-scroll';
 import Footer from './components/Footer'
+import SuprSendInbox from '@suprsend/react-inbox';
+import 'react-toastify/dist/ReactToastify.css'; // Import toastify styles
 
 function App() {
 
@@ -15,6 +17,7 @@ function App() {
   
   return (
     <div className=' min-h-screen w-full bg-zinc-800 '>
+      
       <Navbar></Navbar>
       <Landing></Landing>
       <Marquee></Marquee>
